@@ -1,0 +1,54 @@
+  3937.8ms (setup:858): 2025-06-10 12:01:03
+  3938.8ms (setup:859): /usr/bin/pipx install av
+  3939.6ms (setup:860): pipx version is 1.4.3
+  3940.0ms (setup:861): Default python interpreter is '/usr/bin/python3'
+  3940.8ms (mkdir:74): creating directory /home/zaydiscool777/.local/share/pipx/venvs
+  3963.5ms (mkdir:74): creating directory /home/zaydiscool777/.local/bin
+  3968.8ms (mkdir:74): creating directory /home/zaydiscool777/.local/share/man
+  3982.1ms (mkdir:74): creating directory /home/zaydiscool777/.cache/pipx
+  4014.4ms (setup:870): Adding CACHEDIR.TAG to cache directory
+  4062.9ms (package_name_from_spec:370): Determined package name: av
+  4063.5ms (package_name_from_spec:371): Package name determined in 0.0s
+  4079.8ms (run_subprocess:168): running /usr/bin/python3 -m venv --without-pip /home/zaydiscool777/.local/share/pipx/venvs/av
+  5893.1ms (run_subprocess:190): stdout:
+  5893.7ms (run_subprocess:192): stderr:
+  5894.1ms (run_subprocess:193): returncode: 0
+  5901.4ms (run_subprocess:168): running /usr/bin/python3 -m venv --clear /home/zaydiscool777/.local/share/pipx/shared
+144349.4ms (run_subprocess:190): stdout:
+144363.5ms (run_subprocess:192): stderr:
+144364.6ms (run_subprocess:193): returncode: 0
+144382.0ms (run_subprocess:168): running <checking pip's availability>
+145235.1ms (run_subprocess:190): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7197bb9ff290>, origin='/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+145235.7ms (run_subprocess:193): returncode: 0
+145239.9ms (upgrade:98): Upgrading shared libraries in /home/zaydiscool777/.local/share/pipx/shared
+145248.2ms (run_subprocess:168): running /home/zaydiscool777/.local/share/pipx/shared/bin/python -m pip --no-input --disable-pip-version-check install --force-reinstall -q --upgrade pip >= 23.1
+215270.5ms (run_subprocess:190): stdout:
+215274.2ms (run_subprocess:192): stderr:
+215275.1ms (run_subprocess:193): returncode: 0
+215289.9ms (run_subprocess:168): running /home/zaydiscool777/.local/share/pipx/venvs/av/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+215783.6ms (run_subprocess:190): stdout: /home/zaydiscool777/.local/share/pipx/venvs/av/lib/python3.12/site-packages
+215784.1ms (run_subprocess:193): returncode: 0
+215786.4ms (run_subprocess:168): running /home/zaydiscool777/.local/share/pipx/shared/bin/python -c import sysconfig; print(sysconfig.get_path('purelib'))
+216146.9ms (run_subprocess:190): stdout: /home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages
+216148.3ms (run_subprocess:193): returncode: 0
+216151.9ms (run_subprocess:168): running /home/zaydiscool777/.local/share/pipx/venvs/av/bin/python --version
+216175.1ms (run_subprocess:190): stdout: Python 3.12.3
+216176.3ms (run_subprocess:192): stderr:
+216176.7ms (run_subprocess:193): returncode: 0
+216190.1ms (_parsed_package_to_package_or_url:137): cleaned package spec: av
+216196.2ms (run_subprocess:168): running /home/zaydiscool777/.local/share/pipx/venvs/av/bin/python -m pip --no-input install av
+243683.7ms (run_subprocess:193): returncode: 0
+243691.8ms (run_subprocess:168): running <fetch_info_in_venv commands>
+244164.7ms (run_subprocess:190): stdout: {"sys_path": ["/usr/lib/python312.zip", "/usr/lib/python3.12", "/usr/lib/python3.12/lib-dynload", "/home/zaydiscool777/.local/share/pipx/venvs/av/lib/python3.12/site-packages", "/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages"], "python_version": "3.12.3", "environment": {"implementation_name": "cpython", "implementation_version": "3.12.3", "os_name": "posix", "platform_machine": "x86_64", "platform_release": "6.6.87.1-microsoft-standard-WSL2", "platform_system": "Linux", "platform_version": "#1 SMP PREEMPT_DYNAMIC Mon Apr 21 17:08:54 UTC 2025", "python_full_version": "3.12.3", "platform_python_implementation": "CPython", "python_version": "3.12", "sys_platform": "linux"}}
+244165.5ms (run_subprocess:193): returncode: 0
+244376.9ms (get_venv_metadata_for_package:339): get_venv_metadata_for_package: 690ms
+244378.8ms (_parsed_package_to_package_or_url:137): cleaned package spec: av
+244723.5ms (run_subprocess:168): running <checking pip's availability>
+245008.6ms (run_subprocess:190): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7a4fad9ff290>, origin='/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+245009.0ms (run_subprocess:193): returncode: 0
+245010.0ms (run_subprocess:168): running <checking pip's availability>
+245286.8ms (run_subprocess:190): stdout: ModuleSpec(name='pip', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7cbe153ff290>, origin='/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages/pip/__init__.py', submodule_search_locations=['/home/zaydiscool777/.local/share/pipx/shared/lib/python3.12/site-packages/pip'])
+245287.6ms (run_subprocess:193): returncode: 0
+246735.0ms (warn_if_not_on_path:466): ⚠️  Note: '/home/zaydiscool777/.local/bin' is not on your PATH environment variable. These apps will not be globally accessible until your PATH is updated. Run `pipx ensurepath` to
+    automatically add it, or manually modify your PATH in your shell's config file (i.e. ~/.bashrc).
+246736.8ms (cli:932): pipx finished.
